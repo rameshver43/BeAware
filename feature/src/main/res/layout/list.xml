@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:xmls="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/fitWindowsLinearLayout">
+
+        <TextView
+            android:id="@+id/disaster"
+            android:layout_width="293dp"
+            android:layout_height="49dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            tools:layout_conversion_absoluteHeight="53dp"
+            tools:layout_conversion_absoluteWidth="310dp"
+            xmls:layout_constraintBottom_toBottomOf="parent"
+            xmls:layout_constraintEnd_toStartOf="@+id/imageView"
+            xmls:layout_constraintHorizontal_bias="0.107"
+            xmls:layout_constraintStart_toStartOf="parent"
+            xmls:layout_constraintTop_toTopOf="parent"
+            xmls:layout_constraintVertical_bias="0.533" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="41dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            tools:layout_conversion_absoluteHeight="54dp"
+            tools:layout_conversion_absoluteWidth="40dp"
+            xmls:layout_constraintBottom_toBottomOf="parent"
+            xmls:layout_constraintEnd_toEndOf="parent"
+            xmls:layout_constraintTop_toTopOf="parent"
+            xmls:srcCompat="@android:drawable/ic_media_next" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
+
+
